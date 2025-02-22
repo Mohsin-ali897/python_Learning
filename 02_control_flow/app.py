@@ -69,3 +69,10 @@ while i <= n:
     sum *= i
     i +=1
 print(f'sum of {n} = {sum}')
+
+#? for loop with else statement  
+for i in range(5):
+    if (i == 3):
+        print(i)
+else:
+    print('i is not found')
