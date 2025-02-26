@@ -76,3 +76,17 @@ for i in range(5):
         print(i)
 else:
     print('i is not found')
+    
+#! shortHand if else statement 
+a = 20,
+b = 20,
+print('a is greater than b') if a > b else print('b is greather than a') if b > a else print('a is equal to b') if a == b else print('all condition is not satisfied')
+
+num1 = 20,
+num2 = 30,
+num3 = 10
+# print('num1 is bigger than num2') if num1 > num2 else ''
+# print('num1 is bigger than num2') if num1 > num2 else print('hello') if num2 > num1 else ''
+num3 = 200 if num1 > num2 else num3
+print(num3)
+
