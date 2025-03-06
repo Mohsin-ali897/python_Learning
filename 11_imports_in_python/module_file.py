@@ -3,4 +3,6 @@ def greet():
 
 name = 'mohsin ali'
 
- 
+if (__name__ == '__main__'):
+    greet()
+    name

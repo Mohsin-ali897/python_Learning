@@ -28,8 +28,8 @@ from math import *
 #! Importing a Custom (User-Defined) Module
 import module_file  #* import user defined module
 from module_file import greet, name
-module_file.greet() 
-print(greet)
+# module_file.greet() 
+print(greet())
 print(name)
 
 
